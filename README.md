@@ -6,39 +6,39 @@
 - [x] Button-Group（按钮组）
 - [ ] Radio（单选框）
 - [ ] CheckBox（多选框）
-- [ ] Input
-- [ ] InputNumber
-- [ ] Select
-- [ ] Cascader
-- [ ] Switch
-- [ ] Slider
-- [ ] TimePicker
-- [ ] DatePicker
-- [ ] DateTimePicker
-- [ ] Upload
-- [ ] Rate
-- [ ] ColorPicker
-- [ ] Transfer
-- [ ] Form
-- [ ] Table
-- [ ] Tag
-- [ ] Progress
-- [ ] Tree
-- [ ] Pagination
-- [ ] Badge
-- [ ] Alert
-- [ ] Loading
-- [ ] Message
-- [ ] MessageBox
-- [ ] Notification
-- [ ] Navmenu
-- [ ] Tabs
-- [ ] Breadcrumb
-- [ ] Dropdown
-- [ ] Steps
-- [ ] Dialog
-- [ ] ToolTips
-- [ ] Popover
-- [ ] Card
-- [ ] Carousel
-- [ ] Collapse 
+- [ ] Input （输入框）
+- [ ] InputNumber （输入数字选择框）
+- [ ] Select （下拉选择框）
+- [ ] Cascader （级联选择）
+- [ ] Switch （滑动开关）
+- [ ] Slider  （滑动条）
+- [ ] TimePicker （时间选择）
+- [ ] DatePicker  （日期选择）
+- [ ] DateTimePicker （时间日期选择）
+- [ ] Upload （上传）
+- [ ] Rate （评分）
+- [ ] ColorPicker （颜色选择）
+- [ ] Transfer （穿梭框）
+- [ ] Form （表单）
+- [ ] Table （表格）
+- [ ] Tag （标签）
+- [ ] Progress （进度条）
+- [ ] Tree （树形节点）
+- [ ] Pagination （分页）
+- [ ] Badge （小红点）
+- [ ] Alert  （警告框）
+- [ ] Loading （加载动画）
+- [ ] Message （消息提示）
+- [ ] MessageBox （消息提示框）
+- [ ] Notification （通知）
+- [ ] Navmenu  （导航菜单）
+- [ ] Tabs  （标签页）
+- [ ] Breadcrumb （面包屑）
+- [ ] Dropdown （下拉菜单）
+- [ ] Steps （步骤条）
+- [ ] Dialog （对话框弹窗）
+- [ ] ToolTips （提示）
+- [ ] Popover  （弹窗）
+- [ ] Card    （卡片）
+- [ ] Carousel  （走马灯/轮播图）
+- [ ] Collapse  （折叠面板）
