@@ -1,2 +1,44 @@
 # cool-ui
 🎨  一个炫酷的UI框架，基于Vue2
+
+# ToDo
+- [] Button（按钮）
+- [] Button-Group（按钮组）
+- [x] Radio（单选框）
+- [x] CheckBox（多选框）
+- [x] Input
+- [x] InputNumber
+- [x] Select
+- [x] Cascader
+- [x] Switch
+- [x] Slider
+- [x] TimePicker
+- [x] DatePicker
+- [x] DateTimePicker
+- [x] Upload
+- [x] Rate
+- [x] ColorPicker
+- [x] Transfer
+- [x] Form
+- [x] Table
+- [x] Tag
+- [x] Progress
+- [x] Tree
+- [x] Pagination
+- [x] Badge
+- [x] Alert
+- [x] Loading
+- [x] Message
+- [x] MessageBox
+- [x] Notification
+- [x] Navmenu
+- [x] Tabs
+- [x] Breadcrumb
+- [x] Dropdown
+- [x] Steps
+- [x] Dialog
+- [x] ToolTips
+- [x] Popover
+- [x] Card
+- [x] Carousel
+- [x] Collapse 
