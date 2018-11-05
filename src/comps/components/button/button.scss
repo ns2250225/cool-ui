@@ -1,0 +1,336 @@
+.co__btn {
+    box-sizing: border-box;
+    appearance: none;
+    background-color: transparent;
+    border: 2px solid $red;
+    border-radius: 0.6em;
+    color: $red;
+    cursor: pointer;
+    display: flex;
+    align-self: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1;
+    margin: 20px;
+    padding: 1.2em 2.8em;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+
+
+} 
+
+.co__btn--default{
+    border-color: $blue;
+    color: #fff;
+    box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 $blue;
+    transition: all 150ms ease-in-out;
+    
+    &:hover {
+        box-shadow: 0 0 10px 0 $blue inset, 0 0 10px 4px $blue;
+        color: $blue;
+    }
+
+    &:active {
+        background: $blue;
+        color: #fff;
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    &.is-round {
+        @include border-radius(20px);
+    }
+
+    &.is-plain {
+        border-color: $blue;
+        color: $blue;
+        background: {
+            image: linear-gradient(45deg, $blue 50%, transparent 50%);
+            position: 100%;
+            size: 400%;
+        }
+        box-shadow: unset;
+        transition: background 300ms ease-in-out;
+        
+        &:hover {
+            background-position: 0;
+            color: #fff;
+        }
+    }
+
+    &.is-long {
+        @include size(100%,auto)
+    }
+
+    &.no-radius {
+        @include border-radius(0);
+    }
+}
+
+.co__btn--primary{
+	border-color: $green;
+    color: #fff;
+    box-shadow: 0 0 40px 40px $green inset, 0 0 0 0 $green;
+    transition: all 150ms ease-in-out;
+    
+    &:hover {
+        box-shadow: 0 0 10px 0 $green inset, 0 0 10px 4px $green;
+        color: $green;
+    }
+
+    &:active {
+        background: $green;
+        color: #fff;
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    &.is-round {
+        @include border-radius(20px);
+    }
+
+    &.is-plain {
+        border-color: $green;
+        color: $green;
+        background: {
+            image: linear-gradient(45deg, $green 50%, transparent 50%);
+            position: 100%;
+            size: 400%;
+        }
+        box-shadow: unset;
+        transition: background 300ms ease-in-out;
+        
+        &:hover {
+            background-position: 0;
+            color: #fff;
+        }
+    }
+
+    &.is-long {
+        @include size(100%,auto)
+    }
+
+    &.no-radius {
+        @include border-radius(0);
+    }
+}
+
+.co__btn--success{
+	border-color: $yellow;
+    color: #fff;
+    box-shadow: 0 0 40px 40px $yellow inset, 0 0 0 0 $yellow;
+    transition: all 150ms ease-in-out;
+    
+    &:hover {
+        box-shadow: 0 0 10px 0 $yellow inset, 0 0 10px 4px $yellow;
+        color: $yellow;
+    }
+
+    &:active {
+        background: $yellow;
+        color: #fff;
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    &.is-round {
+        @include border-radius(20px);
+    }
+
+    &.is-plain {
+        border-color: $yellow;
+        color: $yellow;
+        background: {
+            image: linear-gradient(45deg, $yellow 50%, transparent 50%);
+            position: 100%;
+            size: 400%;
+        }
+        box-shadow: unset;
+        transition: background 300ms ease-in-out;
+        
+        &:hover {
+            background-position: 0;
+            color: #fff;
+        }
+    }
+
+    &.is-long {
+        @include size(100%,auto)
+    }
+
+    &.no-radius {
+        @include border-radius(0);
+    }
+}
+
+.co__btn--warning{
+	border-color: $purple;
+    color: #fff;
+    box-shadow: 0 0 40px 40px $purple inset, 0 0 0 0 $purple;
+    transition: all 150ms ease-in-out;
+    
+    &:hover {
+        box-shadow: 0 0 10px 0 $purple inset, 0 0 10px 4px $purple;
+        color: $purple;
+    }
+
+    &:active {
+        background: $purple;
+        color: #fff;
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    &.is-round {
+        @include border-radius(20px);
+    }
+
+    &.is-plain {
+        border-color: $purple;
+        color: $purple;
+        background: {
+            image: linear-gradient(45deg, $purple 50%, transparent 50%);
+            position: 100%;
+            size: 400%;
+        }
+        box-shadow: unset;
+        transition: background 300ms ease-in-out;
+        
+        &:hover {
+            background-position: 0;
+            color: #fff;
+        }
+    }
+
+    &.is-long {
+        @include size(100%,auto)
+    }
+
+    &.no-radius {
+        @include border-radius(0);
+    }
+}
+
+.co__btn--error{
+	border-color: $red;
+    color: #fff;
+    box-shadow: 0 0 40px 40px $red inset, 0 0 0 0 $red;
+    transition: all 150ms ease-in-out;
+    
+    &:hover {
+        box-shadow: 0 0 10px 0 $red inset, 0 0 10px 4px $red;
+        color: $red;
+    }
+
+    &:active {
+        background: $red;
+        color: #fff;
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    &.is-round {
+        @include border-radius(20px);
+    }
+
+    &.is-plain {
+        border-color: $red;
+        color: $red;
+        background: {
+            image: linear-gradient(45deg, $red 50%, transparent 50%);
+            position: 100%;
+            size: 400%;
+        }
+        box-shadow: unset;
+        transition: background 300ms ease-in-out;
+        
+        &:hover {
+            background-position: 0;
+            color: #fff;
+        }
+    }
+
+    &.is-long {
+        @include size(100%,auto)
+    }
+
+    &.no-radius {
+        @include border-radius(0);
+    }
+}
+
+.co__btn--text{
+	@extend .co__btn--default;
+	color: $btn-text-color;
+	background: $btn-text-bg;
+    border: none;
+    box-shadow: unset;
+    
+    &:hover,
+    &:active {
+        background-color: $btn-text-bg;
+        text-decoration: none;
+        color: $text-color;
+        border-color: $btn-text-bg;
+        box-shadow: unset;
+    }
+
+    &[disabled] {
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+
+    &.is-long {
+        @include size(100%,auto)
+    }
+
+    &.no-radius {
+        @include border-radius(0);
+    }
+}
+
+.co__btn--block {
+	display: block;
+}
+
+.co__btn--group {
+	position: relative;
+    vertical-align: middle;
+    display: flex;  
+    
+    & button{
+        flex: 1;
+        border-radius: 10px;
+
+        &.no-radius {
+            @include border-radius(0);
+        }
+    }
+}
+
+.co__hasIconBtn{
+    // padding: 11px 20px;
+    border-radius: 50%;
+    box-shadow: unset;
+    i {
+        font-size: 18px;
+    }
+}
