@@ -1,25 +1,24 @@
 .co__btn {
     box-sizing: border-box;
     appearance: none;
+    white-space: nowrap;
     background-color: transparent;
-    border: 2px solid $red;
-    border-radius: 0.6em;
-    color: $red;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    color: inherit;
+    outline: none;
     cursor: pointer;
     display: flex;
     align-self: center;
-    font-size: 1rem;
-    font-weight: 400;
+    font-size: 13px;
+    font-weight: 600;
     line-height: 1;
     margin: 20px;
-    padding: 1.2em 2.8em;
+    padding: 8px 15px;
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-
-
 } 
 
 .co__btn--default{
@@ -45,6 +44,11 @@
 
     &.is-round {
         @include border-radius(20px);
+    }
+
+    &.is-cycle {
+        border-radius: 20px;
+        padding: 8px;
     }
 
     &.is-plain {
@@ -98,6 +102,11 @@
         @include border-radius(20px);
     }
 
+    &.is-cycle {
+        border-radius: 20px;
+        padding: 8px;
+    }
+
     &.is-plain {
         border-color: $green;
         color: $green;
@@ -147,6 +156,11 @@
 
     &.is-round {
         @include border-radius(20px);
+    }
+
+    &.is-cycle {
+        border-radius: 20px;
+        padding: 8px;
     }
 
     &.is-plain {
@@ -200,6 +214,11 @@
         @include border-radius(20px);
     }
 
+    &.is-cycle {
+        border-radius: 20px;
+        padding: 8px;
+    }
+
     &.is-plain {
         border-color: $purple;
         color: $purple;
@@ -249,6 +268,11 @@
 
     &.is-round {
         @include border-radius(20px);
+    }
+
+    &.is-cycle {
+        border-radius: 20px;
+        padding: 8px;
     }
 
     &.is-plain {
@@ -315,10 +339,12 @@
 	position: relative;
     vertical-align: middle;
     display: flex;  
+    justify-content: space-between;
     
     & button{
-        flex: 1;
         border-radius: 10px;
+        text-align: center;
+        margin: 0;
 
         &.no-radius {
             @include border-radius(0);
@@ -327,10 +353,4 @@
 }
 
 .co__hasIconBtn{
-    // padding: 11px 20px;
-    border-radius: 50%;
-    box-shadow: unset;
-    i {
-        font-size: 18px;
-    }
 }

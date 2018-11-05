@@ -5,6 +5,8 @@ import App from './App'
 import router from './router'
 import xmui from './comps/index'
 
+import './assets/iconfont/iconfont.css'
+
 Vue.use(xmui)
 
 Vue.config.productionTip = false

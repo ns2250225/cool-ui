@@ -5,13 +5,13 @@
         :style="{backgroundColor: bgColor, color: color, 'border-color':borderColor}"
         :class="[
         'co__btn--'+type,
-        {'is-plain': plain, 'is-round': round, 'is-long': long, 'co__btn--block': block, 'no-radius': noRadius},
+        {'is-plain': plain, 'is-round': round, 'is-cycle': cycle,'is-long': long, 'co__btn--block': block, 'no-radius': noRadius},
         iconClass
         ]"
         :disabled="disabled"
     >
         <i :class="icon" v-if="icon"></i>
-        <i class="co__icon--loading" v-if="loading && !icon"></i>
+        <i class="iconfont icon-icon_loading" v-if="loading && !icon"></i>
         <slot></slot>
     </button>
 </template>
@@ -52,7 +52,8 @@ export default {
     block: Boolean,
     disabled: Boolean,
     plain: Boolean,
-    round: Boolean
+    round: Boolean,
+    cycle: Boolean
   },
   methods: {
     handleClick (event) {
@@ -69,4 +70,7 @@ export default {
 </script>
 
 <style scoped lang="scss">
+.iconfont.icon-icon_loading {
+  animation: spin 1250ms linear infinite;
+}
 </style>
