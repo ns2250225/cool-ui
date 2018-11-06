@@ -48,6 +48,11 @@
     <div class="checkbox-group">
       <co-checkbox-group :data="RadioData" v-model="val2" @input="LogSomething"></co-checkbox-group>
     </div>
+
+    <h1 style="margin-top: 50px;">输入框</h1>
+    <div class="text-input">
+      <co-input clearIcon showEye type="password" label="Name" v-model="textv"></co-input>
+    </div>
     
   </div>
 </template>
@@ -60,6 +65,7 @@ export default {
       msg: 'Welcome to Your Vue.js App',
       val: '1',
       val2: [],
+      textv: '',
       RadioData: [{
         text: '选项1',
         value: '1'
@@ -119,5 +125,9 @@ h1 {
 .checkbox-group {
   margin-left: 100px;
   margin-top: 50px;
+}
+.text-input {
+  margin-left: 150px;
+  margin-top: 20px;
 }
 </style>

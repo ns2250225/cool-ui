@@ -3,6 +3,7 @@ import './styles/index.scss'
 import Button from './components/button/index'
 import Radio from './components/radio/index'
 import Checkbox from './components/checkbox/index'
+import Input from './components/input/index'
 
 const components = {
   Button,
@@ -10,7 +11,8 @@ const components = {
   Radio,
   RadioGroup: Radio.group,
   Checkbox,
-  CheckboxGroup: Checkbox.group
+  CheckboxGroup: Checkbox.group,
+  Input
 }
 
 const install = function (Vue) {
