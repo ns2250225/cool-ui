@@ -38,6 +38,17 @@
         <co-button type="primary">按钮2</co-button>
         <co-button type="success">按钮3</co-button>
     </co-button-group>
+  
+    <h1 style="margin-top: 50px;">单选框</h1>
+    <div class="radio-group">
+      <co-radio-group :data="RadioData" v-model="val" @input="LogSomething"></co-radio-group>
+    </div>
+
+    <h1 style="margin-top: 50px;">多选框</h1>
+    <div class="checkbox-group">
+      <co-checkbox-group :data="RadioData" v-model="val2" @input="LogSomething"></co-checkbox-group>
+    </div>
+    
   </div>
 </template>
 
@@ -46,12 +57,21 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
+      msg: 'Welcome to Your Vue.js App',
+      val: '1',
+      val2: [],
+      RadioData: [{
+        text: '选项1',
+        value: '1'
+      }, {
+        text: '选项2',
+        value: '2'
+      }]
     }
   },
   methods: {
-    myBtn () {
-        console.log("click!")
+    LogSomething () {
+      console.log(this.val2)
     }
   }
 }
@@ -91,5 +111,13 @@ h1 {
 .btn__group {
   width: 100px;
   margin-left: 100px;
+}
+.radio-group {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.checkbox-group {
+  margin-left: 100px;
+  margin-top: 50px;
 }
 </style>

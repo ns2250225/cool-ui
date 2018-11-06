@@ -64,10 +64,9 @@ export default {
   computed: {
     iconClass () {
       if (this.icon !== '') return 'co__hasIconBtn'
-    },
-    disabled () {
-      if (this.loading && this.icon == '') return true
     }
+  },
+  watch: {
   }
 }
 </script>
