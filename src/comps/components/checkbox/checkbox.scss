@@ -1,52 +1,70 @@
-.option-input {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-    -o-appearance: none;
-    appearance: none;
-    position: relative;
-    top: 13.33333px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    height: 40px;
-    width: 40px;
-    -webkit-transition: all 0.15s ease-out 0s;
-    -moz-transition: all 0.15s ease-out 0s;
-    transition: all 0.15s ease-out 0s;
-    background: #cbd1d8;
-    border: none;
-    color: #fff;
-    cursor: pointer;
-    display: inline-block;
-    margin-right: 0.5rem;
-    outline: none;
-    position: relative;
-    z-index: 1000;
-  }
-  .option-input:hover {
-    background: #9faab7;
-  }
-  .option-input:checked {
-    background: #40e0d0;
-  }
-  .option-input:checked::before {
-    height: 40px;
-    width: 40px;
-    position: absolute;
-    content: '\2716';
-    display: inline-block;
-    font-size: 26.66667px;
-    text-align: center;
-    line-height: 40px;
-  }
-  .option-input:checked::after {
-    -webkit-animation: click-wave 0.65s;
-    -moz-animation: click-wave 0.65s;
-    animation: click-wave 0.65s;
-    background: #40e0d0;
+$border-color: #3f51b5;
+$material-colors: (
+  red: #f44336,
+  pink: #e91e63,
+  purple: #9c27b0,
+  deep-purple: #673ab7,
+  indigo: #3f51b5,
+  blue: #2196f3,
+  light-blue: #03a9f4,
+  cyan: #00bcd4,
+  teal: #009688,
+  green: #4caf50,
+  light-green: #8bc34a,
+  lime: #cddc39,
+  yellow: #ffeb3b,
+  amber: #ffc107,
+  orange: #ff9800,
+  deep-orange: #ff5722,
+  blue-grey: #607d8b
+);
+/**
+ * Code for checkboxes
+ */
+.checkbox {
+  position: relative;
+  
+  width: 24px;
+  height: 24px;
+  margin-right: .75rem;
+  
+  cursor: pointer;
+  appearance: none;
+  outline: 0;
+ 
+  &:before {
     content: '';
-    display: block;
-    position: relative;
-    z-index: 100;
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    
+    width: 100%;
+    height: 100%;
+    
+    border: 2px solid $border-color;
+    
+    transition: all 0.3s ease-in-out;
   }
+
+  &:checked:before {
+    height: 50%;
+    
+    transform: rotate(-45deg);
+    
+    border-top-style: none;
+    border-right-style: none;
+  }
+  
+  @each $name, $value in $material-colors {
+    &--#{$name}:checked:before {
+      border-color: $value;
+    }
+  }
+}
+
+.checkbox-text {
+  font-size: 18px;
+  margin-right: 20px;
+}

@@ -1,9 +1,8 @@
 <template>
     <label class="checkbox-box" :class="{'checked':checkboxValue,'disabled':disabled}">
-        <input class="option-input" type="checkbox" :disabled="disabled" v-model="checkboxValue" :name="name">
-        <span class="checkbox-inner"></span>
-        <span class="checkbox-text" v-if="text" v-text="text"></span>
-        <span class="checkbox-text" v-else><slot></slot></span>
+        <input class="checkbox checkbox--indigo" type="checkbox" :disabled="disabled" v-model="checkboxValue" :name="name">
+        <label class="checkbox-text" v-if="text" v-text="text"></label>
+        <label class="checkbox-text" v-else><slot></slot></label>
     </label>
 </template>
 <script>

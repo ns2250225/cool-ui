@@ -1,6 +1,6 @@
 <template>
     <label class="radio-box" :class="{'checked':vValue==modelValue,'disabled':disabled}">
-        <input type="radio" class="option-input radio" :value="vValue" @change="onChange" :disabled="disabled" :checked="vValue==modelValue">
+        <input type="radio" :value="vValue" @change="onChange" :disabled="disabled" :checked="vValue==modelValue">
         <span class="radio-text"><slot></slot></span>
     </label>
 </template>
