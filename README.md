@@ -1,6 +1,10 @@
 # cool-ui
 🎨  一个炫酷的UI框架，基于Vue2
 
+# 使用方法
+- npm install
+- npm run dev
+
 # ToDo
 - [x] Button（按钮）
 - [x] Button-Group（按钮组）
