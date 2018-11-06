@@ -10,7 +10,7 @@
 - [x] Button-Group（按钮组）
 - [x] Radio（单选框）
 - [x] CheckBox（多选框）
-- [ ] Input （输入框）
+- [x] Input （输入框）
 - [ ] InputNumber （输入数字选择框）
 - [ ] Select （下拉选择框）
 - [ ] Cascader （级联选择）
