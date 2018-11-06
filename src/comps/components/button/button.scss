@@ -49,6 +49,9 @@
     &.is-cycle {
         border-radius: 20px;
         padding: 8px;
+        i {
+            margin: 0;
+        }
     }
 
     &.is-plain {
@@ -105,6 +108,9 @@
     &.is-cycle {
         border-radius: 20px;
         padding: 8px;
+        i {
+            margin: 0;
+        }
     }
 
     &.is-plain {
@@ -161,6 +167,9 @@
     &.is-cycle {
         border-radius: 20px;
         padding: 8px;
+        i {
+            margin: 0;
+        }
     }
 
     &.is-plain {
@@ -217,6 +226,9 @@
     &.is-cycle {
         border-radius: 20px;
         padding: 8px;
+        i {
+            margin: 0;
+        }
     }
 
     &.is-plain {
@@ -273,6 +285,9 @@
     &.is-cycle {
         border-radius: 20px;
         padding: 8px;
+        i {
+            margin: 0;
+        }
     }
 
     &.is-plain {
@@ -353,4 +368,7 @@
 }
 
 .co__hasIconBtn{
+    i {
+        margin-right: 5px;
+    }
 }

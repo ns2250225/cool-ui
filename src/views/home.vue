@@ -2,19 +2,19 @@
   <div class="hello_btn">
     <h1>普通按钮</h1>
     <div class="normal_btn">
-      <co-button>普通按钮</co-button>
-      <co-button type="primary">primary按钮</co-button>
-      <co-button type="success">success按钮</co-button>
-      <co-button type="error">error按钮</co-button>
-      <co-button type="warning">warning按钮</co-button>
+      <co-button icon="iconfont icon-duigou">普通按钮</co-button>
+      <co-button icon="iconfont icon-icon_fabu" type="primary">primary按钮</co-button>
+      <co-button icon="iconfont icon-shuaxin" type="success">success按钮</co-button>
+      <co-button icon="iconfont icon-shanchu" type="error">error按钮</co-button>
+      <co-button icon="iconfont icon-jinggao" type="warning">warning按钮</co-button>
     </div>
     <h1>简约按钮</h1>
     <div class="plain_btn">
-      <co-button plain>普通按钮</co-button>
-      <co-button plain type="primary">primary按钮</co-button>
-      <co-button plain type="success">success按钮</co-button>
-      <co-button plain type="error">error按钮</co-button>
-      <co-button plain type="warning">warning按钮</co-button>
+      <co-button icon="iconfont icon-duigou" plain>普通按钮</co-button>
+      <co-button icon="iconfont icon-icon_fabu" plain type="primary">primary按钮</co-button>
+      <co-button icon="iconfont icon-shuaxin" plain type="success">success按钮</co-button>
+      <co-button icon="iconfont icon-shanchu" plain type="error">error按钮</co-button>
+      <co-button icon="iconfont icon-jinggao" plain type="warning">warning按钮</co-button>
     </div>
     <h1>图标按钮</h1>
     <div class="icon_btn">
