@@ -32,7 +32,7 @@
 - [ ] Badge （小红点）
 - [ ] Alert  （警告框）
 - [ ] Loading （加载动画）
-- [ ] Message （消息提示）
+- [x] Message （消息提示）
 - [ ] MessageBox （消息提示框）
 - [ ] Notification （通知）
 - [ ] Navmenu  （导航菜单）
