@@ -14,7 +14,7 @@
 - [x] InputNumber （数字输入框）
 - [ ] Select （下拉选择框）
 - [ ] Cascader （级联选择）
-- [ ] Switch （滑动开关）
+- [x] Switch （滑动开关）
 - [ ] Slider  （滑动条）
 - [ ] TimePicker （时间选择）
 - [ ] DatePicker  （日期选择）
