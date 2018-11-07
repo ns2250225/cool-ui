@@ -67,9 +67,11 @@
       <co-switch v-model="val4" disabled></co-switch>
     </div>
 
-    <h1 style="margin-top: 25px;">Message消息提醒</h1>
+    <h1 style="margin-top: 40px;">Message消息提醒</h1>
     <div class="message">
       <co-button @click="showMessage">消息提醒</co-button>
+      <co-button type="primary" @click="showMessage2">消息提醒2</co-button>
+      <co-button type="error" @click="showMessage3">消息提醒3</co-button>
     </div>
     
   </div>
@@ -104,6 +106,19 @@ export default {
     },
     showMessage () {
       this.$message('这是一条消息提示')
+    },
+    showMessage2 () {
+      this.$message({
+        type: 'success',
+        message: '这是一条成功的消息提示'
+      })
+    },
+    showMessage3 () {
+      this.$message({
+        type: 'error',
+        message: '这是一条带关闭符号的消息提示',
+        showClose: true
+      })
     }
   }
 }
@@ -165,7 +180,8 @@ h1 {
   margin-top: 20px;
 }
 .message {
-  margin-left: 150px;
+  margin-left: 250px;
   margin-top: 20px;
+  display: flex;
 }
 </style>
