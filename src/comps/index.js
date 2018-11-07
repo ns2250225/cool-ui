@@ -5,6 +5,7 @@ import Radio from './components/radio/index'
 import Checkbox from './components/checkbox/index'
 import Input from './components/input/index'
 import InputNumber from './components/inputNumber/index'
+import Switch from './components/switch/index'
 
 const components = {
   Button,
@@ -14,7 +15,8 @@ const components = {
   Checkbox,
   CheckboxGroup: Checkbox.group,
   Input,
-  InputNumber
+  InputNumber,
+  Switch
 }
 
 const install = function (Vue) {

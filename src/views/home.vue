@@ -51,7 +51,7 @@
 
     <h1 style="margin-top: 50px;">输入框</h1>
     <div class="text-input">
-      <co-input placeholder="请输入一些内容" clearIcon showEye type="password" label="Name" v-model="textv"></co-input>
+      <co-input placeholder="请输入一些内容" clearIcon showEye type="password" label="姓名" v-model="textv"></co-input>
       <co-input placeholder="禁止输入"  label="禁止" disabled  v-model="textv"></co-input>
     </div>
 
@@ -59,6 +59,12 @@
     <div class="text-input-number">
       <co-input-number v-model="val3" :max="10"></co-input-number>
       <co-input-number v-model="val3" :max="10" disabled></co-input-number>
+    </div>
+
+    <h1 style="margin-top: 25px;">Switch滑动开关</h1>
+    <div class="switch-button">
+      <co-switch v-model="val4" @change="LogSomething"></co-switch>
+      <co-switch v-model="val4" disabled></co-switch>
     </div>
     
   </div>
@@ -73,6 +79,7 @@ export default {
       val: '1',
       val2: [],
       val3: 1,
+      val4: false,
       textv: '',
       RadioData: [{
         text: '选项1',
@@ -87,8 +94,8 @@ export default {
     }
   },
   methods: {
-    LogSomething () {
-      console.log(this.val2)
+    LogSomething (val) {
+      console.log(val)
     }
   }
 }
@@ -142,6 +149,10 @@ h1 {
   margin-top: 20px;
 }
 .text-input-number {
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.switch-button {
   margin-left: 150px;
   margin-top: 20px;
 }
