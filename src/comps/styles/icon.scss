@@ -9,7 +9,7 @@
     font-style: normal;
   }
   
-[class^="icon-"], [class*=" icon-"]  {
+[class^="vm-message-icon"], [class*=" vm-message-icon"]  {
     font-family:"iconfont" !important;
     font-size:$font-size-base;
     font-style:normal;
@@ -19,26 +19,45 @@
     
 }
 
-.icon-tiaoshi:before { content: "\eb61"; }
-
-.icon-bianji:before { content: "\eb62"; }
-
-.icon-jinggao:before { content: "\eb65"; }
-
-.icon-guanbi:before { content: "\eb6a"; }
-
-.icon-icon_loading:before { content: "\eb80"; }
-
-.icon-icon_fabu:before { content: "\eb88"; }
-
-.icon-duigou:before { content: "\ebe6"; }
-
-.icon-shuaxin:before { content: "\ec08"; }
-
-.icon-yunduanxiazai:before { content: "\ec1d"; }
-
-.icon-guangbo:before { content: "\ec36"; }
-
-.icon-kaiguan:before { content: "\ec76"; }
-
-.icon-shanchu:before { content: "\ec7b"; }
+.vm-message-icon--success {
+    color: #13ce66;
+}
+.vm-message-icon--success:before {
+    content: "\e8e4";
+}
+.vm-message-icon--error {
+    color: #ff4949;
+}
+.vm-message-icon--error:before {
+    content: "\e8e7";
+}
+.vm-message-icon--info {
+    color: #50bfff;
+}
+.vm-message-icon--info:before {
+    content: "\e8ea";
+}
+.vm-message-icon--warning {
+    color: #f7ba2a;
+}
+.vm-message-icon--warning:before {
+    content: "\e8ec";
+}
+.vm-message-icon--loading {
+    color: #bfcbd9;
+    animation: rotating 1s linear infinite;
+}
+.vm-message-icon--loading:before {
+    content: "\e8fd";
+}
+.vm-message-icon--close:before {
+    content: "\e8e8";
+}
+@keyframes rotating {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}

@@ -6,6 +6,7 @@ import Checkbox from './components/checkbox/index'
 import Input from './components/input/index'
 import InputNumber from './components/inputNumber/index'
 import Switch from './components/switch/index'
+import Message from './components/message/index'
 
 const components = {
   Button,
@@ -16,7 +17,8 @@ const components = {
   CheckboxGroup: Checkbox.group,
   Input,
   InputNumber,
-  Switch
+  Switch,
+  Message
 }
 
 const install = function (Vue) {
@@ -28,6 +30,7 @@ const install = function (Vue) {
 
   // Vue.prototype.$modal = GlobalModal
   // Vue.prototype.$toast = Toast
+  Vue.prototype.$message = Message
 }
 
 if (typeof window !== 'undefined' && window.Vue) {

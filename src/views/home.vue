@@ -2,31 +2,31 @@
   <div class="hello_btn">
     <h1>普通按钮</h1>
     <div class="normal_btn">
-      <co-button icon="iconfont icon-duigou">普通按钮</co-button>
-      <co-button icon="iconfont icon-icon_fabu" type="primary">primary按钮</co-button>
-      <co-button icon="iconfont icon-shuaxin" type="success">success按钮</co-button>
-      <co-button icon="iconfont icon-shanchu" type="error">error按钮</co-button>
-      <co-button icon="iconfont icon-jinggao" type="warning">warning按钮</co-button>
+      <co-button icon="vm-message-icon--close">普通按钮</co-button>
+      <co-button type="primary">primary按钮</co-button>
+      <co-button type="success">success按钮</co-button>
+      <co-button type="error">error按钮</co-button>
+      <co-button type="warning">warning按钮</co-button>
     </div>
     <h1>简约按钮</h1>
     <div class="plain_btn">
-      <co-button icon="iconfont icon-duigou" plain>普通按钮</co-button>
-      <co-button icon="iconfont icon-icon_fabu" plain type="primary">primary按钮</co-button>
-      <co-button icon="iconfont icon-shuaxin" plain type="success">success按钮</co-button>
-      <co-button icon="iconfont icon-shanchu" plain type="error">error按钮</co-button>
-      <co-button icon="iconfont icon-jinggao" plain type="warning">warning按钮</co-button>
+      <co-button icon="vm-message-icon--close" plain>普通按钮</co-button>
+      <co-button plain type="primary">primary按钮</co-button>
+      <co-button plain type="success">success按钮</co-button>
+      <co-button plain type="error">error按钮</co-button>
+      <co-button plain type="warning">warning按钮</co-button>
     </div>
     <h1>图标按钮</h1>
     <div class="icon_btn">
-      <co-button icon="iconfont icon-duigou" cycle></co-button>
-      <co-button icon="iconfont icon-icon_fabu" type="primary" cycle></co-button>
-      <co-button icon="iconfont icon-shuaxin" type="success" cycle></co-button>
-      <co-button icon="iconfont icon-shanchu" type="error" cycle></co-button>
-      <co-button icon="iconfont icon-jinggao" type="warning" cycle></co-button>
+      <co-button icon="vm-message-icon--close" cycle></co-button>
+      <co-button icon="vm-message-icon--close" type="primary" cycle></co-button>
+      <co-button icon="vm-message-icon--close" type="success" cycle></co-button>
+      <co-button icon="vm-message-icon--close" type="error" cycle></co-button>
+      <co-button icon="vm-message-icon--close" type="warning" cycle></co-button>
     </div>
     <h1>文字按钮</h1>
     <div class="text_btn">
-      <co-button type="text" icon="iconfont icon-duigou">文字按钮</co-button>
+      <co-button type="text" icon="vm-message-icon--success">文字按钮</co-button>
     </div>
     <h1>Loading按钮</h1>
     <div class="loading_btn">
@@ -66,6 +66,11 @@
       <co-switch v-model="val4" @change="LogSomething"></co-switch>
       <co-switch v-model="val4" disabled></co-switch>
     </div>
+
+    <h1 style="margin-top: 25px;">Message消息提醒</h1>
+    <div class="message">
+      <co-button @click="showMessage">消息提醒</co-button>
+    </div>
     
   </div>
 </template>
@@ -96,6 +101,9 @@ export default {
   methods: {
     LogSomething (val) {
       console.log(val)
+    },
+    showMessage () {
+      this.$message('这是一条消息提示')
     }
   }
 }
@@ -153,6 +161,10 @@ h1 {
   margin-top: 20px;
 }
 .switch-button {
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.message {
   margin-left: 150px;
   margin-top: 20px;
 }
