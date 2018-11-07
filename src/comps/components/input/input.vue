@@ -1,6 +1,8 @@
 <template>
     <div class="input-wrapper">
         <input class="basic-slide" v-bind="$props" v-model="inputValue" :type="inputType" :name="name" 
+               :class="{'disabled': disabled}"
+               :placeholder="placeholder"
                @focus="_focus"
                @blur="_blur"
                @keyup="_keyup"

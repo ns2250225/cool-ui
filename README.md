@@ -11,7 +11,7 @@
 - [x] Radio（单选框）
 - [x] CheckBox（多选框）
 - [x] Input （输入框）
-- [ ] InputNumber （输入数字选择框）
+- [x] InputNumber （数字输入框）
 - [ ] Select （下拉选择框）
 - [ ] Cascader （级联选择）
 - [ ] Switch （滑动开关）

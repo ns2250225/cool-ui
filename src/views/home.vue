@@ -51,7 +51,14 @@
 
     <h1 style="margin-top: 50px;">输入框</h1>
     <div class="text-input">
-      <co-input clearIcon showEye type="password" label="Name" v-model="textv"></co-input>
+      <co-input placeholder="请输入一些内容" clearIcon showEye type="password" label="Name" v-model="textv"></co-input>
+      <co-input placeholder="禁止输入"  label="禁止" disabled  v-model="textv"></co-input>
+    </div>
+
+    <h1 style="margin-top: 25px;">数字输入框</h1>
+    <div class="text-input-number">
+      <co-input-number v-model="val3" :max="10"></co-input-number>
+      <co-input-number v-model="val3" :max="10" disabled></co-input-number>
     </div>
     
   </div>
@@ -65,6 +72,7 @@ export default {
       msg: 'Welcome to Your Vue.js App',
       val: '1',
       val2: [],
+      val3: 1,
       textv: '',
       RadioData: [{
         text: '选项1',
@@ -72,6 +80,9 @@ export default {
       }, {
         text: '选项2',
         value: '2'
+      }, {
+        text: '选项3',
+        value: '3'
       }]
     }
   },
@@ -127,6 +138,10 @@ h1 {
   margin-top: 50px;
 }
 .text-input {
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.text-input-number {
   margin-left: 150px;
   margin-top: 20px;
 }

@@ -68,4 +68,9 @@
     + label {
       transform: translateX(-100%);
     }
-  }
+}
+
+.basic-slide.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+}
