@@ -9,6 +9,7 @@ import Switch from './components/switch/index'
 import Message from './components/message/index'
 import Badge from './components/badge/index'
 import { Table, TableCol } from './components/table/index'
+import Select from './components/select/index'
 
 const components = {
   Button,
@@ -23,7 +24,8 @@ const components = {
   Message,
   Badge,
   Table,
-  TableCol
+  TableCol,
+  Select
 }
 
 const install = function (Vue) {

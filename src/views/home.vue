@@ -61,6 +61,12 @@
       <co-input-number v-model="val3" :max="10" disabled></co-input-number>
     </div>
 
+    <h1 style="margin-top: 25px;">下拉选择框</h1>
+    <div class="select-group">
+      <co-select :options="options"></co-select>
+      <co-select :options="options"></co-select>
+    </div>
+
     <h1 style="margin-top: 25px;">Switch滑动开关</h1>
     <div class="switch-button">
       <co-switch v-model="val4" @change="LogSomething"></co-switch>
@@ -172,6 +178,19 @@ export default {
           title: "关于实施校园网运营服务模式改革相关情况的说明",
           author: "Cruyun",
           likes: 1001
+      }],
+      options: [{
+        value: 1,
+        label: '广州'
+      }, {
+        value: 2,
+        label: '深圳'
+      }, {
+        value: 3,
+        label: '上海'
+      }, {
+        value: 4,
+        label: '北京'
       }]
     }
   },
@@ -261,7 +280,7 @@ h1 {
 }
 .switch-button {
   margin-left: 150px;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 .message {
   margin-left: 250px;
@@ -278,5 +297,11 @@ h1 {
 .table-group {
   margin-left: 250px;
   margin-top: 50px;
+}
+.select-group {
+  margin-left: 150px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
 }
 </style>

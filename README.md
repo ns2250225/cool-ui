@@ -12,15 +12,12 @@
 - [x] CheckBox（多选框）
 - [x] Input （输入框）
 - [x] InputNumber （数字输入框）
-- [ ] Select （下拉选择框）
-- [ ] Cascader （级联选择）
+- [x] Select （下拉选择框）
 - [x] Switch （滑动开关）
-- [ ] Slider  （滑动条）
 - [ ] TimePicker （时间选择）
 - [ ] DatePicker  （日期选择）
 - [ ] DateTimePicker （时间日期选择）
 - [ ] Upload （上传）
-- [ ] ColorPicker （颜色选择）
 - [ ] Transfer （穿梭框）
 - [x] Table （表格）
 - [ ] Tag （标签）
@@ -28,7 +25,6 @@
 - [ ] Tree （树形节点）
 - [ ] Pagination （分页）
 - [x] Badge （小红点）
-- [ ] Alert  （警告框）
 - [ ] Loading （加载动画）
 - [x] Message （消息提示）
 - [ ] Navmenu  （导航菜单）
