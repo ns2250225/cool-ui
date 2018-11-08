@@ -29,7 +29,7 @@
 - [ ] Progress （进度条）
 - [ ] Tree （树形节点）
 - [ ] Pagination （分页）
-- [ ] Badge （小红点）
+- [x] Badge （小红点）
 - [ ] Alert  （警告框）
 - [ ] Loading （加载动画）
 - [x] Message （消息提示）

@@ -7,6 +7,7 @@ import Input from './components/input/index'
 import InputNumber from './components/inputNumber/index'
 import Switch from './components/switch/index'
 import Message from './components/message/index'
+import Badge from './components/badge/index'
 
 const components = {
   Button,
@@ -18,7 +19,8 @@ const components = {
   Input,
   InputNumber,
   Switch,
-  Message
+  Message,
+  Badge
 }
 
 const install = function (Vue) {
@@ -28,8 +30,6 @@ const install = function (Vue) {
     Vue.component(components[key].name, components[key])
   })
 
-  // Vue.prototype.$modal = GlobalModal
-  // Vue.prototype.$toast = Toast
   Vue.prototype.$message = Message
 }
 

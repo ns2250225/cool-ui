@@ -73,6 +73,22 @@
       <co-button type="primary" @click="showMessage2">消息提醒2</co-button>
       <co-button type="error" @click="showMessage3">消息提醒3</co-button>
     </div>
+
+    <h1 style="margin-top: 40px;">Badge小红点</h1>
+    <div class="badge-group">
+      <co-badge value="18">
+        <co-button plain>数字</co-button>
+      </co-badge>
+      <co-badge :value="18" :max="10">
+        <co-button plain>最大值</co-button>
+      </co-badge>
+      <co-badge value="Hot">
+        <co-button plain>文字</co-button>
+      </co-badge>
+      <co-badge isDot>
+        <co-button plain>红点</co-button>
+      </co-badge>
+    </div>
     
   </div>
 </template>
@@ -134,30 +150,36 @@ h1 {
   display: flex;
   justify-content: space-around;
   margin-left: 50px;
+  margin-top: 50px;
 }
 .icon_btn {
   display: flex;
   justify-content: space-around;
   margin-left: 50px;
+  margin-top: 30px;
 }
 .plain_btn {
   display: flex;
   justify-content: space-around;
   margin-left: 50px;
+  margin-top: 30px;
 }
 .text_btn {
   display: flex;
   justify-content: space-around;
   margin-left: 50px;
+  margin-top: 30px;
 }
 .loading_btn {
   display: flex;
   justify-content: space-around;
   margin-left: 50px;
+  margin-top: 30px;
 }
 .btn__group {
   width: 100px;
   margin-left: 100px;
+  margin-top: 30px;
 }
 .radio-group {
   margin-left: 100px;
@@ -183,5 +205,12 @@ h1 {
   margin-left: 250px;
   margin-top: 20px;
   display: flex;
+  justify-content: space-around;
+}
+.badge-group {
+  margin-left: 250px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 </style>
