@@ -10,6 +10,7 @@ import Message from './components/message/index'
 import Badge from './components/badge/index'
 import { Table, TableCol } from './components/table/index'
 import Select from './components/select/index'
+import Pagination from './components/pagination/index'
 
 const components = {
   Button,
@@ -25,7 +26,8 @@ const components = {
   Badge,
   Table,
   TableCol,
-  Select
+  Select,
+  Pagination
 }
 
 const install = function (Vue) {

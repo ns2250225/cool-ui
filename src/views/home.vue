@@ -130,6 +130,17 @@
         </co-table>
     </div>
     
+    <h1 style="margin-top: 40px;">分页组件</h1>
+    <div class="pagination">
+      <co-pagination 
+        v-model="page"
+        :page-count="20"
+        :click-handler="LogSomething"
+        :prev-text="'上一页'"
+        :next-text="'下一页'">
+      </co-pagination>
+    </div>
+
   </div>
 </template>
 
@@ -140,6 +151,7 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       val: '1',
+      page: 1,
       val2: [],
       val3: 1,
       val4: false,
@@ -303,5 +315,9 @@ h1 {
   margin-top: 30px;
   margin-bottom: 20px;
   display: flex;
+}
+.pagination {
+  margin-left: 150px;
+  margin-top: 70px;
 }
 </style>
