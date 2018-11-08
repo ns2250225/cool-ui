@@ -8,6 +8,7 @@ import InputNumber from './components/inputNumber/index'
 import Switch from './components/switch/index'
 import Message from './components/message/index'
 import Badge from './components/badge/index'
+import { Table, TableCol } from './components/table/index'
 
 const components = {
   Button,
@@ -20,7 +21,9 @@ const components = {
   InputNumber,
   Switch,
   Message,
-  Badge
+  Badge,
+  Table,
+  TableCol
 }
 
 const install = function (Vue) {

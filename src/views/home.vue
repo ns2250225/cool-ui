@@ -89,6 +89,40 @@
         <co-button plain>红点</co-button>
       </co-badge>
     </div>
+
+    <h1 style="margin-top: 40px;">表格</h1>
+    <div class="table-group">
+      <co-table :data="table_data">
+            <co-table-col
+            prop="kind"
+            label="分类"
+            width="15%">
+            </co-table-col>
+            <co-table-col
+            prop="title"
+            label="标题"
+            width="30%">
+            </co-table-col>
+            <co-table-col
+            prop="author"
+            label="作者"
+            width="20%">
+            </co-table-col>
+            <co-table-col
+            prop="likes"
+            label="浏览量"
+            width="10%">
+            </co-table-col>
+            <co-table-col
+            label="操作"
+            prop="active"
+            width="20%">
+                <template slot-scope="row">
+                    <co-button icon="vm-message-icon--close" type="error" cycle @click="showRow(row)"></co-button>
+                </template>
+            </co-table-col>
+        </co-table>
+    </div>
     
   </div>
 </template>
@@ -113,6 +147,31 @@ export default {
       }, {
         text: '选项3',
         value: '3'
+      }],
+      table_data: [{
+          id:1,
+          kind:"图集",
+          title: "图集· 日光倾城",
+          author: "Amanda",
+          likes: 190
+      },{
+          id:2,
+          kind:"图集",
+          title: "图集·军训，再见",
+          author: "Rose",
+          likes: 18
+      },{
+          id:3,
+          kind:"水墨",
+          title: "乐在桂花节",
+          author: "Elegenthus",
+          likes: 189
+      },{
+          id:4,
+          kind:"新闻",
+          title: "关于实施校园网运营服务模式改革相关情况的说明",
+          author: "Cruyun",
+          likes: 1001
       }]
     }
   },
@@ -135,6 +194,9 @@ export default {
         message: '这是一条带关闭符号的消息提示',
         showClose: true
       })
+    },
+    showRow (row) {
+      console.log(row)
     }
   }
 }
@@ -212,5 +274,9 @@ h1 {
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
+}
+.table-group {
+  margin-left: 250px;
+  margin-top: 50px;
 }
 </style>

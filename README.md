@@ -20,11 +20,9 @@
 - [ ] DatePicker  （日期选择）
 - [ ] DateTimePicker （时间日期选择）
 - [ ] Upload （上传）
-- [ ] Rate （评分）
 - [ ] ColorPicker （颜色选择）
 - [ ] Transfer （穿梭框）
-- [ ] Form （表单）
-- [ ] Table （表格）
+- [x] Table （表格）
 - [ ] Tag （标签）
 - [ ] Progress （进度条）
 - [ ] Tree （树形节点）
@@ -33,8 +31,6 @@
 - [ ] Alert  （警告框）
 - [ ] Loading （加载动画）
 - [x] Message （消息提示）
-- [ ] MessageBox （消息提示框）
-- [ ] Notification （通知）
 - [ ] Navmenu  （导航菜单）
 - [ ] Tabs  （标签页）
 - [ ] Breadcrumb （面包屑）
@@ -42,7 +38,6 @@
 - [ ] Steps （步骤条）
 - [ ] Dialog （对话框弹窗）
 - [ ] ToolTips （提示）
-- [ ] Popover  （弹窗）
 - [ ] Card    （卡片）
 - [ ] Carousel  （走马灯/轮播图）
 - [ ] Collapse  （折叠面板）
