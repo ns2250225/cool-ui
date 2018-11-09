@@ -1,9 +1,23 @@
 # cool-ui
 🎨  一个炫酷的UI框架，基于Vue2
 
-# 使用方法
+# 组件演示
 - npm install
 - npm run dev
+
+# 安装使用
+- npm install my-cool-ui --save
+- 引入
+```
+# 引入css
+import 'my-cool-ui/package/coolui.min.css'  
+
+# 引入coolui.min.js
+import coolui from 'my-cool-ui/package/coolui.min.js'  
+
+# 注入到vue
+Vue.use(coolui)
+```
 
 # ToDo
 - [x] Button（按钮）

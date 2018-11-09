@@ -1,0 +1,42 @@
+$size: 14px;
+
+.co-select {
+  border: 1px solid #0791e0;
+  &.ul, ol, li {
+    list-style: none;
+  }
+}
+
+.inner{
+  position: relative;
+  margin: 0 auto;
+  width: 200px; height: 30px;
+  font-size: $size;
+  border-radius: 3px;
+  .inputWrapper{
+    width: 100%; height: 100%;
+    >input{
+      width: 85%; height: 90%;
+      padding-left: 10px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  >.options{
+    position: absolute;
+    left: 0; right: 0; top: 120%;
+    padding: 10px 0;
+    background-color: #fff;
+    box-shadow: 0 0 4px #ddd;
+    border-radius: 3px;
+    overflow: auto;
+    z-index: 100;
+    >li{
+      padding: 3px 10px;
+      cursor: pointer;
+      &:hover{
+        background-color: #eee;
+      }
+    }
+  }
+}

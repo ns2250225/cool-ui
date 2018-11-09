@@ -1,13 +1,16 @@
 {
-  "name": "coolui",
+  "name": "my-cool-ui",
   "version": "1.0.0",
   "description": "my cool ui lib based vue2",
-  "author": "maqingxiong <maqingxiong@gomo.com>",
-  "private": true,
+  "author": "ns2250225 <243027571@qq.com>",
+  "main": "package/coolui.min.js",
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
-    "build": "node build/build.js"
+    "build": "node build/build.js",
+    "package:dev": "webpack --config build/package.dev.config.js",
+    "package:prod": "webpack --config build/package.prod.config.js",
+    "package": "npm run package:prod && npm run build && npm publish"
   },
   "dependencies": {
     "vue": "^2.5.2",
@@ -60,5 +63,14 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ns2250225/cool-ui"
+  },
+  "bugs": {
+    "url": "https://github.com/ns2250225/cool-ui/issues",
+    "email" : "243027571@qq.com"
+  }
 }

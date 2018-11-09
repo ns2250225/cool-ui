@@ -1,0 +1,35 @@
+input[type="radio"] {
+  appearance:none;
+  margin:0 20px;
+  width: 24px;
+  height: 24px;
+  background: #eeeeee;
+  box-shadow:
+    inset 0 0 0 .4em white,
+    0 0 0 .3em;
+  border-radius: 50%;
+  transition: .2s;
+  cursor:pointer;
+  color: #363945;
+
+  &:hover,
+  &:checked {
+    background: #363945;
+    box-shadow:
+    inset 0 0 0 .6em white,
+    0 0 0 .3em;
+  }
+  
+  &:checked {
+    background: #56be8e;
+    box-shadow:
+      inset 0 0 0 .4em white,
+      0 0 0 .3em #56be8e;
+  } 
+
+  &:focus { outline: 0; }
+}
+
+.radio-text {
+  font-size: 18px;
+}

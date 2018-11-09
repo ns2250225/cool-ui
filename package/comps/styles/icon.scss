@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'iconfont';  
+    src: url('./iconfont/iconfont.eot');
+    src: url('./iconfont/iconfont.eot#iefix') format('embedded-opentype'),
+    url('./iconfont/iconfont.woff') format('woff'),
+    url('./iconfont/iconfont.ttf') format('truetype'),
+    url('./iconfont/iconfont.svg#iconfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+[class^="vm-message-icon"], [class*=" vm-message-icon"]  {
+    font-family:"iconfont" !important;
+    font-size:$font-size-base;
+    font-style:normal;
+    vertical-align: baseline;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    
+}
+
+.vm-message-icon--success {
+    color: #13ce66;
+}
+.vm-message-icon--success:before {
+    content: "\e8e4";
+}
+.vm-message-icon--error {
+    color: #ff4949;
+}
+.vm-message-icon--error:before {
+    content: "\e8e7";
+}
+.vm-message-icon--info {
+    color: #50bfff;
+}
+.vm-message-icon--info:before {
+    content: "\e8ea";
+}
+.vm-message-icon--warning {
+    color: #f7ba2a;
+}
+.vm-message-icon--warning:before {
+    content: "\e8ec";
+}
+.vm-message-icon--loading {
+    color: #bfcbd9;
+    animation: rotating 1s linear infinite;
+}
+.vm-message-icon--loading:before {
+    content: "\e8fd";
+}
+.vm-message-icon--close:before {
+    content: "\e8e8";
+}
+@keyframes rotating {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}

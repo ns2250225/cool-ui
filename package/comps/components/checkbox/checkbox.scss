@@ -1,0 +1,70 @@
+$border-color: #3f51b5;
+$material-colors: (
+  red: #f44336,
+  pink: #e91e63,
+  purple: #9c27b0,
+  deep-purple: #673ab7,
+  indigo: #3f51b5,
+  blue: #2196f3,
+  light-blue: #03a9f4,
+  cyan: #00bcd4,
+  teal: #009688,
+  green: #4caf50,
+  light-green: #8bc34a,
+  lime: #cddc39,
+  yellow: #ffeb3b,
+  amber: #ffc107,
+  orange: #ff9800,
+  deep-orange: #ff5722,
+  blue-grey: #607d8b
+);
+/**
+ * Code for checkboxes
+ */
+.checkbox {
+  position: relative;
+  
+  width: 24px;
+  height: 24px;
+  margin-right: .75rem;
+  
+  cursor: pointer;
+  appearance: none;
+  outline: 0;
+ 
+  &:before {
+    content: '';
+    
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    
+    width: 100%;
+    height: 100%;
+    
+    border: 2px solid $border-color;
+    
+    transition: all 0.3s ease-in-out;
+  }
+
+  &:checked:before {
+    height: 50%;
+    
+    transform: rotate(-45deg);
+    
+    border-top-style: none;
+    border-right-style: none;
+  }
+  
+  @each $name, $value in $material-colors {
+    &--#{$name}:checked:before {
+      border-color: $value;
+    }
+  }
+}
+
+.checkbox-text {
+  font-size: 18px;
+  margin-right: 20px;
+}
