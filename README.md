@@ -3,7 +3,7 @@
 
 # 组件演示
 - npm install
-- npm run dev
+- npm run docs:dev
 
 # 安装使用
 - npm install my-cool-ui --save
