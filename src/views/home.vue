@@ -149,6 +149,11 @@
       <co-tooltip :content="'Right'" :position="'right'">Right</co-tooltip>
     </div>
 
+    <h1 style="margin-top: 40px;">BreadCrumb面包屑</h1>
+    <div class="breadcrumb-group">
+      <co-breadcrumb :datas="pathData"></co-breadcrumb>
+    </div>
+
   </div>
 </template>
 
@@ -211,6 +216,33 @@ export default {
       }, {
         value: 4,
         label: '北京'
+      }],
+      pathData: [{
+        path: 'home',
+        title: 'Home'
+      }, {
+        path: 'index',
+        title: 'Index',
+        icon: 'vm-message-icon--close'
+      }, {
+        path: 'button',
+        title: 'Button',
+        icon: 'vm-message-icon--close'
+      }, {
+        path: 'radio',
+        title: 'Radio',
+        icon: 'vm-message-icon--close'
+      }, {
+        path: 'checkbox',
+        title: 'CheckBox',
+        icon: 'vm-message-icon--close'
+      }, {
+        path: 'input',
+        title: 'Input',
+        icon: 'vm-message-icon--close'
+      }, {
+        path: 'loading',
+        title: 'Loading'
       }]
     }
   },
@@ -334,5 +366,9 @@ h1 {
   display: flex;
   justify-content: space-around;
   width: 400px;
+}
+.breadcrumb-group {
+  margin-left: 150px;
+  margin-top: 30px;
 }
 </style>

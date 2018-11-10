@@ -38,6 +38,7 @@ module.exports = {
             '/component/table',
             '/component/pagination',
             '/component/tooltip',
+            '/component/breadcrumb',
           ]
         },
         {

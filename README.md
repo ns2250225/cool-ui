@@ -47,7 +47,7 @@ Vue.use(coolui)
 - [x] Message （消息提示）
 - [ ] Navmenu  （导航菜单）
 - [ ] Tabs  （标签页）
-- [ ] Breadcrumb （面包屑）
+- [x] Breadcrumb （面包屑）
 - [ ] Steps （步骤条）
 - [ ] Dialog （对话框弹窗）
 - [x] ToolTips （提示）

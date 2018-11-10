@@ -12,6 +12,7 @@ import { Table, TableCol } from './components/table/index'
 import Select from './components/select/index'
 import Pagination from './components/pagination/index'
 import Tooltip from './components/tooltip/index'
+import Breadcrumb from './components/breadcrumb/index'
 
 const components = {
   Button,
@@ -29,7 +30,8 @@ const components = {
   TableCol,
   Select,
   Pagination,
-  Tooltip
+  Tooltip,
+  Breadcrumb
 }
 
 const install = function (Vue) {
