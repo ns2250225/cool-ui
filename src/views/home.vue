@@ -41,12 +41,12 @@
   
     <h1 style="margin-top: 50px;">单选框</h1>
     <div class="radio-group">
-      <co-radio-group :data="RadioData" v-model="val" @input="LogSomething"></co-radio-group>
+      <co-radio-group :data="RadioData" v-model="val" @change="LogSomething"></co-radio-group>
     </div>
 
     <h1 style="margin-top: 50px;">多选框</h1>
     <div class="checkbox-group">
-      <co-checkbox-group :data="RadioData" v-model="val2" @input="LogSomething"></co-checkbox-group>
+      <co-checkbox-group :data="RadioData" v-model="val2" @change="LogSomething"></co-checkbox-group>
     </div>
 
     <h1 style="margin-top: 50px;">输入框</h1>

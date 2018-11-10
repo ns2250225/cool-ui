@@ -10,7 +10,7 @@
         <label>{{ label }}</label>
         <i :class="['eye-icon',{'iconfont icon-kaiguan':eyeShow,'iconfont icon-icon_fabu':!eyeShow}]"
               v-if="inputValue&&showEye && type=='password'" @click="eyeShow=!eyeShow"></i>
-        <i class="iconfont icon-shanchu" v-if="clearIcon&&inputValue" @click="inputValue=''"></i>
+        <i class="vm-message-icon--close" v-if="clearIcon&&inputValue" @click="inputValue=''"></i>
     </div>
 </template>
 <script type="text/ecmascript-6">

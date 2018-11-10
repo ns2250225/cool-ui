@@ -16,7 +16,8 @@ export default {
     },
     watch: {
         groupValue(v){
-            this.$emit('input', v);
+            this.$emit('input', v)
+            this.$emit('change', v)
             this.change ? this.change(v) : ''
         }
     },

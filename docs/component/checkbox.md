@@ -1,23 +1,23 @@
 ---
-pageClass: radio-page-class
+pageClass: checkbox-page-class
 ---
 
-# Radio
-## 单选框组
+# CheckBox
+## 多选框组
 
 <template>
-  <div id="radio">
-    <div class="radio-group">
-        <co-radio-group :data="RadioData" v-model="val"></co-radio-group>
+  <div id="checkbox">
+    <div class="checkbox-group">
+        <co-checkbox-group :data="CheckboxData" v-model="val2" @change="LogSomething"></co-checkbox-group>
     </div>
   </div>
 </template>
 
 ```html
 <template>
-  <div id="radio">
-    <div class="radio-group">
-        <co-radio-group :data="RadioData" v-model="val" @change="LogSomething"></co-radio-group>
+  <div id="checkbox">
+    <div class="checkbox-group">
+        <co-checkbox-group :data="CheckboxData" v-model="val2" @change="LogSomething"></co-checkbox-group>
     </div>
   </div>
 </template>
@@ -26,7 +26,7 @@ pageClass: radio-page-class
 export default {
   data () {
     return {
-        RadioData: [{
+        CheckboxData: [{
           text: '选项1',
           value: '1'
         }, {
@@ -36,12 +36,12 @@ export default {
           text: '选项3',
           value: '3'
         }],
-        val: '1'
+        val2: '1'
       }
   },
   methods: {
-    LogSomething (val) {
-      console.log(val)
+    LogSomething () {
+        console.log(this.val2)
     }
   }
 }
@@ -52,7 +52,7 @@ export default {
 export default {
   data () {
     return {
-        RadioData: [{
+        CheckboxData: [{
           text: '选项1',
           value: '1'
         }, {
@@ -62,12 +62,12 @@ export default {
           text: '选项3',
           value: '3'
         }],
-        val: '1'
+        val2: []
       }
   },
   methods: {
-      LogSomething (val) {
-      console.log(val)
+    LogSomething () {
+        console.log(this.val2)
     }
   }
 }

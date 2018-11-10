@@ -9,7 +9,7 @@ module.exports = {
       // 添加导航栏
       nav: [
         { text: '主页', link: '/' }, // 导航条
-        { text: '组件文档', link: '/component/button' },
+        { text: '组件文档', link: '/component/info' },
         { text: 'github',        // 这里是下拉列表展现形式。
           items: [
             { text: 'MyGithub', link: 'https://github.com/ns2250225/cool-ui' }
@@ -19,11 +19,24 @@ module.exports = {
       // 为以下路由添加侧边栏
       sidebar: [
         {
+          title: '快速开始',
+          children: ['/component/info']
+        },
+        {
           title: '基础组件',
           collapsable: false,
           children: [
             '/component/button',
-            '/component/radio'
+            '/component/radio',
+            '/component/checkbox',
+            '/component/input',
+            '/component/inputNumber',
+            '/component/select',
+            '/component/switch',
+            '/component/message',
+            '/component/badge',
+            '/component/table',
+            '/component/pagination',
           ]
         },
         {
