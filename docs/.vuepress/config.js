@@ -37,6 +37,7 @@ module.exports = {
             '/component/badge',
             '/component/table',
             '/component/pagination',
+            '/component/tooltip',
           ]
         },
         {

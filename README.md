@@ -50,5 +50,5 @@ Vue.use(coolui)
 - [ ] Breadcrumb （面包屑）
 - [ ] Steps （步骤条）
 - [ ] Dialog （对话框弹窗）
-- [ ] ToolTips （提示）
+- [x] ToolTips （提示）
 - [ ] Carousel  （走马灯/轮播图）

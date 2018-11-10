@@ -141,6 +141,14 @@
       </co-pagination>
     </div>
 
+    <h1 style="margin-top: 40px;">Tooltip提示</h1>
+    <div class="tooltip-group">
+      <co-tooltip :content="'Left'" :position="'left'">Left</co-tooltip>
+      <co-tooltip :content="'Top'" :position="'top'">Top</co-tooltip>
+      <co-tooltip :content="'Bottom'" :position="'bottom'">Bottom</co-tooltip>
+      <co-tooltip :content="'Right'" :position="'right'">Right</co-tooltip>
+    </div>
+
   </div>
 </template>
 
@@ -319,5 +327,12 @@ h1 {
 .pagination {
   margin-left: 150px;
   margin-top: 70px;
+}
+.tooltip-group {
+  margin-left: 150px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
 }
 </style>
