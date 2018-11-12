@@ -43,7 +43,7 @@ Vue.use(coolui)
 - [x] Pagination （分页）
 - [x] Badge （小红点）
 - [x] Message （消息提示）
-- [ ] Navmenu  （导航菜单）
+- [x] Navmenu  （导航菜单）
 - [x] Tabs  （标签页）
 - [x] Breadcrumb （面包屑）
 - [x] Dialog （对话框弹窗）

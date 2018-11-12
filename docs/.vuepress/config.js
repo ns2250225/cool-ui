@@ -41,6 +41,7 @@ module.exports = {
             '/component/breadcrumb',
             '/component/tabs',
             '/component/dialog',
+            '/component/sidebar',
           ]
         },
         {

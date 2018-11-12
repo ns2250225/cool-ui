@@ -15,6 +15,7 @@ import Tooltip from './components/tooltip/index'
 import Breadcrumb from './components/breadcrumb/index'
 import { Tabs, Tab } from './components/tabs/index'
 import Dialog from './components/dialog/index'
+import SidebarMenu from './components/navmenu/index'
 
 const components = {
   Button,
@@ -36,7 +37,8 @@ const components = {
   Breadcrumb,
   Tabs,
   Tab,
-  Dialog
+  Dialog,
+  SidebarMenu
 }
 
 const install = function (Vue) {
