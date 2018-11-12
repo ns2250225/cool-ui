@@ -39,16 +39,13 @@ Vue.use(coolui)
 - [ ] Upload （上传）
 - [ ] Transfer （穿梭框）
 - [x] Table （表格）
-- [ ] Progress （进度条）
 - [ ] Tree （树形节点）
 - [x] Pagination （分页）
 - [x] Badge （小红点）
-- [ ] Loading （加载动画）
 - [x] Message （消息提示）
 - [ ] Navmenu  （导航菜单）
-- [ ] Tabs  （标签页）
+- [x] Tabs  （标签页）
 - [x] Breadcrumb （面包屑）
-- [ ] Steps （步骤条）
 - [ ] Dialog （对话框弹窗）
 - [x] ToolTips （提示）
 - [ ] Carousel  （走马灯/轮播图）

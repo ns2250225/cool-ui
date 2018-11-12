@@ -154,6 +154,21 @@
       <co-breadcrumb :datas="pathData"></co-breadcrumb>
     </div>
 
+    <h1 style="margin-top: 40px;">Tabs标签页</h1>
+    <div class="tabs-group">
+      <co-tabs indexTab="yellow">
+            <co-tab label="黄色" name="yellow" fontsize="32" tabheight="100" color="red">
+                <div class="first"><h1>First</h1></div>
+            </co-tab>
+            <co-tab label="红色" name="red" fontsize="32" tabheight="100" color="red">
+                <div class="second"><h1>Second</h1></div>
+            </co-tab>
+            <co-tab label="绿色" name="green" fontsize="32" tabheight="100" color="red">
+                <div class="third"><h1>Third</h1></div>
+            </co-tab>
+        </co-tabs>
+    </div>
+
   </div>
 </template>
 
@@ -370,5 +385,23 @@ h1 {
 .breadcrumb-group {
   margin-left: 150px;
   margin-top: 30px;
+}
+.tabs-group {
+  margin-left: 150px;
+  margin-top: 80px;
+  height: 200px;
+
+  .first {
+    height: 200px;
+    background: yellow;
+  }
+  .second {
+    height: 200px;
+    background: red;
+  }
+  .third {
+    height: 200px;
+    background: greenyellow;
+  }
 }
 </style>
