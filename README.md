@@ -46,6 +46,6 @@ Vue.use(coolui)
 - [ ] Navmenu  （导航菜单）
 - [x] Tabs  （标签页）
 - [x] Breadcrumb （面包屑）
-- [ ] Dialog （对话框弹窗）
+- [x] Dialog （对话框弹窗）
 - [x] ToolTips （提示）
 - [ ] Carousel  （走马灯/轮播图）

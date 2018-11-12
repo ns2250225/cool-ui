@@ -40,6 +40,7 @@ module.exports = {
             '/component/tooltip',
             '/component/breadcrumb',
             '/component/tabs',
+            '/component/dialog',
           ]
         },
         {

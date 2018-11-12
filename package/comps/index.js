@@ -14,6 +14,7 @@ import Pagination from './components/pagination/index'
 import Tooltip from './components/tooltip/index'
 import Breadcrumb from './components/breadcrumb/index'
 import { Tabs, Tab } from './components/tabs/index'
+import Dialog from './components/dialog/index'
 
 const components = {
   Button,
@@ -34,7 +35,8 @@ const components = {
   Tooltip,
   Breadcrumb,
   Tabs,
-  Tab
+  Tab,
+  Dialog
 }
 
 const install = function (Vue) {
