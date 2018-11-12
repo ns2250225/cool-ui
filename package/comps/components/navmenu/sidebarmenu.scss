@@ -152,7 +152,7 @@ $textColor: #fff;
   transition: 0.3s transform;
 }
 .menu-list li.has-dropdown > a > .item-arrow:after {
-  content: "\f105";
+  content: ">";
   font-family: "Font Awesome 5 Free";
 }
 .menu-list li.has-dropdown.open > a > .item-arrow {
@@ -257,6 +257,6 @@ $textColor: #fff;
   width: 100%;
 }
 #sidebar-menu .collapse-btn:after {
-  content: "\f337";
+  content: "<->";
   font-family: "Font Awesome 5 Free";
 }

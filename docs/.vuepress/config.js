@@ -20,7 +20,10 @@ module.exports = {
       sidebar: [
         {
           title: '快速开始',
-          children: ['/component/info']
+          children: [
+            '/component/info',
+            '/component/icon',
+          ]
         },
         {
           title: '基础组件',

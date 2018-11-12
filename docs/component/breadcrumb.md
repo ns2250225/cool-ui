@@ -17,27 +17,28 @@ export default {
     return {
         pathData: [{
             path: 'home',
-            title: 'Home'
+            title: '',
+            icon: 'icon-yibiaopan'
         }, {
             path: 'index',
             title: 'Index',
-            icon: 'vm-message-icon--close'
+            icon: 'icon-search'
         }, {
             path: 'button',
             title: 'Button',
-            icon: 'vm-message-icon--close'
+            icon: 'icon-shanchu'
         }, {
             path: 'radio',
             title: 'Radio',
-            icon: 'vm-message-icon--close'
+            icon: 'icon-gongdan'
         }, {
             path: 'checkbox',
             title: 'CheckBox',
-            icon: 'vm-message-icon--close'
+            icon: 'icon-icon_fabu'
         }, {
             path: 'input',
             title: 'Input',
-            icon: 'vm-message-icon--close'
+            icon: 'icon-shuaxin'
         }, {
             path: 'loading',
             title: 'Loading'
@@ -63,27 +64,28 @@ export default {
     return {
         pathData: [{
             path: 'home',
-            title: 'Home'
+            title: '',
+            icon: 'icon-yibiaopan'
         }, {
             path: 'index',
             title: 'Index',
-            icon: 'vm-message-icon--close'
+            icon: 'icon-search'
         }, {
             path: 'button',
             title: 'Button',
-            icon: 'vm-message-icon--close'
+            icon: 'icon-shanchu'
         }, {
             path: 'radio',
             title: 'Radio',
-            icon: 'vm-message-icon--close'
+            icon: 'icon-gongdan'
         }, {
             path: 'checkbox',
             title: 'CheckBox',
-            icon: 'vm-message-icon--close'
+            icon: 'icon-icon_fabu'
         }, {
             path: 'input',
             title: 'Input',
-            icon: 'vm-message-icon--close'
+            icon: 'icon-shuaxin'
         }, {
             path: 'loading',
             title: 'Loading'

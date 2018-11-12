@@ -33,7 +33,7 @@ pageClass: table-page-class
             prop="active"
             width="20%">
                 <template slot-scope="row">
-                    <co-button icon="vm-message-icon--close" type="error" cycle @click="showRow(row)"></co-button>
+                    <co-button icon="icon-guanbi" type="error" cycle @click="showRow(row)"></co-button>
                 </template>
             </co-table-col>
         </co-table>
@@ -109,7 +109,7 @@ export default {
             prop="active"
             width="20%">
                 <template slot-scope="row">
-                    <co-button icon="vm-message-icon--close" type="error" cycle @click="showRow(row)"></co-button>
+                    <co-button icon="icon-guanbi" type="error" cycle @click="showRow(row)"></co-button>
                 </template>
             </co-table-col>
         </co-table>

@@ -2,7 +2,7 @@
   <div class="hello_btn">
     <h1>普通按钮</h1>
     <div class="normal_btn">
-      <co-button icon="vm-message-icon--close">普通按钮</co-button>
+      <co-button icon="icon-search">普通按钮</co-button>
       <co-button type="primary">primary按钮</co-button>
       <co-button type="success">success按钮</co-button>
       <co-button type="error">error按钮</co-button>
@@ -10,7 +10,7 @@
     </div>
     <h1>简约按钮</h1>
     <div class="plain_btn">
-      <co-button icon="vm-message-icon--close" plain>普通按钮</co-button>
+      <co-button icon="icon-search" plain>普通按钮</co-button>
       <co-button plain type="primary">primary按钮</co-button>
       <co-button plain type="success">success按钮</co-button>
       <co-button plain type="error">error按钮</co-button>
@@ -18,11 +18,11 @@
     </div>
     <h1>图标按钮</h1>
     <div class="icon_btn">
-      <co-button icon="vm-message-icon--close" cycle></co-button>
-      <co-button icon="vm-message-icon--close" type="primary" cycle></co-button>
-      <co-button icon="vm-message-icon--close" type="success" cycle></co-button>
-      <co-button icon="vm-message-icon--close" type="error" cycle></co-button>
-      <co-button icon="vm-message-icon--close" type="warning" cycle></co-button>
+      <co-button icon="icon-search" cycle></co-button>
+      <co-button icon="icon-shanchu" type="primary" cycle></co-button>
+      <co-button icon="icon-gongdan" type="success" cycle></co-button>
+      <co-button icon="icon-icon_fabu" type="error" cycle></co-button>
+      <co-button icon="icon-shuaxin" type="warning" cycle></co-button>
     </div>
     <h1>文字按钮</h1>
     <div class="text_btn">

@@ -19,47 +19,47 @@ export default {
         {
           href: '/',
           title: 'Dashboard',
-          icon: 'vm-message-icon--close'
+          icon: 'icon-gongdan'
         },
         {
           href: '/charts',
           title: 'Charts',
-          icon: 'vm-message-icon--close'
+          icon: 'icon-search'
         },
         {
           href: '/tables',
           title: 'Tables',
-          icon: 'vm-message-icon--close'
+          icon: 'icon-icon_fabu'
         },
         {
           title: 'Pages',
-          icon: 'vm-message-icon--close',
+          icon: 'icon-shanchu',
           child: [
             {
               href: '/auth/login',
               title: 'Login Page',
-              icon: 'vm-message-icon--close',
+              icon: 'icon-gongnengdingyi',
             },
             {
               href: '/auth/registration',
               title: 'Registration Page',
-              icon: 'vm-message-icon--close'
+              icon: 'icon-shiyongwendang'
             },
             {
               href: '#',
               title: '404 Page',
-              icon: 'vm-message-icon--close'
+              icon: 'icon-yishouquan'
             },
           ]
         },
         {
           href: '#',
           title: 'Mailbox',
-          icon: 'vm-message-icon--close'
+          icon: 'icon-tianshenpi'
         },
         {
           title: 'Multiple Level',
-          icon: 'vm-message-icon--close',
+          icon: 'icon-shujukanban',
           child: [
             {
               href: '#',
@@ -132,47 +132,47 @@ export default {
         {
           href: '/',
           title: 'Dashboard',
-          icon: 'vm-message-icon--close'
+          icon: 'icon-gongdan'
         },
         {
           href: '/charts',
           title: 'Charts',
-          icon: 'vm-message-icon--close'
+          icon: 'icon-search'
         },
         {
           href: '/tables',
           title: 'Tables',
-          icon: 'vm-message-icon--close'
+          icon: 'icon-icon_fabu'
         },
         {
           title: 'Pages',
-          icon: 'vm-message-icon--close',
+          icon: 'icon-shanchu',
           child: [
             {
               href: '/auth/login',
               title: 'Login Page',
-              icon: 'vm-message-icon--close',
+              icon: 'icon-gongnengdingyi',
             },
             {
               href: '/auth/registration',
               title: 'Registration Page',
-              icon: 'vm-message-icon--close'
+              icon: 'icon-shiyongwendang'
             },
             {
               href: '#',
               title: '404 Page',
-              icon: 'vm-message-icon--close'
+              icon: 'icon-yishouquan'
             },
           ]
         },
         {
           href: '#',
           title: 'Mailbox',
-          icon: 'vm-message-icon--close'
+          icon: 'icon-tianshenpi'
         },
         {
           title: 'Multiple Level',
-          icon: 'vm-message-icon--close',
+          icon: 'icon-shujukanban',
           child: [
             {
               href: '#',

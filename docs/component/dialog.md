@@ -13,7 +13,7 @@ pageClass: dialog-page-class
         <div slot="body">这是内容</div>
         <div slot="footer">
           这是底部信息
-          <co-button style="display:inline-block;" icon="vm-message-icon--close" type="error" cycle @click="closeDialog"></co-button>
+          <co-button style="display:inline-block;" icon="icon-guanbi" type="error" cycle @click="closeDialog"></co-button>
         </div>
       </co-dialog>
     </div>
@@ -44,7 +44,7 @@ export default {
         <div slot="body">这是内容</div>
         <div slot="footer">
           这是底部信息
-          <co-button style="display:inline-block;" icon="vm-message-icon--close" type="error" cycle @click="closeDialog"></co-button>
+          <co-button style="display:inline-block;" icon="icon-guanbi" type="error" cycle @click="closeDialog"></co-button>
         </div>
       </co-dialog>
     </div>

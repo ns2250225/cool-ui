@@ -11,7 +11,7 @@
         :disabled="disabled"
     >
         <i :class="icon" v-if="icon"></i>
-        <i class="vm-message-icon--loading" v-if="loading && !icon"></i>
+        <i class="icon-icon_loading" v-if="loading && !icon"></i>
         <slot></slot>
     </button>
 </template>

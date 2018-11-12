@@ -8,15 +8,15 @@
         @mouseleave="startTimer">
       <div class="vm-message__group">
         <p class="vm-message__inner"><i class="vm-message__icon" :class="[iconClass ? iconClass : 'vm-message-icon--' + type]"></i><slot>{{message}}</slot></p>
-        <div v-if="showClose" class="vm-message__close vm-message-icon--close" @click="close"></div>
+        <div v-if="showClose" class="vm-message__close icon-guanbi" @click="close"></div>
       </div>
     </div>
   </transition>
 </template>
 <script>
   export default {
-    name: 'VmMessage',
-    componentName: 'VmMessage',
+    name: 'CoMessage',
+    componentName: 'CoMessage',
     data () {
       return {
         visible: false,

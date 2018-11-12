@@ -26,13 +26,15 @@ export default {
     showMessage2 () {
       this.$message({
         type: 'success',
-        message: '这是一条成功的消息提示'
+        message: '这是一条成功的消息提示',
+        iconClass: 'icon-smile-fill'
       })
     },
     showMessage3 () {
       this.$message({
         type: 'error',
         message: '这是一条带关闭符号的消息提示',
+        iconClass: 'icon-frown-fill',
         showClose: true
       })
     }
@@ -63,13 +65,15 @@ export default {
     showMessage2 () {
       this.$message({
         type: 'success',
-        message: '这是一条成功的消息提示'
+        message: '这是一条成功的消息提示',
+        iconClass: 'icon-smile-fill'
       })
     },
     showMessage3 () {
       this.$message({
         type: 'error',
         message: '这是一条带关闭符号的消息提示',
+        iconClass: 'icon-frown-fill',
         showClose: true
       })
     }
