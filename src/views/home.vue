@@ -197,6 +197,11 @@
       <co-transfer :data="transfer_data" v-model="transfer_value" :titles="['源数据','目标数据']"></co-transfer>
     </div>
 
+    <h1 style="margin-top: 40px;">Upload上传组件</h1>
+    <div class="upload-group">
+      <co-upload></co-upload>
+    </div>
+
   </div>
 </template>
 
@@ -578,5 +583,9 @@ h1 {
 .transfer-group {
   margin-left: 200px;
   margin-top: 120px;
+}
+.upload-group {
+  margin-left: 200px;
+  margin-top: 400px;
 }
 </style>

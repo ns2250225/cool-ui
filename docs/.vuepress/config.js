@@ -47,6 +47,7 @@ module.exports = {
             '/component/sidebar',
             '/component/topnav',
             '/component/transfer',
+            '/component/upload',
           ]
         },
         {

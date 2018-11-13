@@ -36,7 +36,7 @@ Vue.use(coolui)
 - [ ] TimePicker （时间选择）
 - [ ] DatePicker  （日期选择）
 - [ ] DateTimePicker （时间日期选择）
-- [ ] Upload （上传）
+- [x] Upload （上传）
 - [x] Transfer （穿梭框）
 - [x] Table （表格）
 - [ ] Tree （树形节点）

@@ -5,7 +5,7 @@
     </span>
     <a href="#" class="logo"><slot name="logo">CoolUI</slot></a>
     <ul class="main-nav" :class="{ active: isActive }" >
-      <li v-for="item in menuData" :key="item">
+      <li v-for="item in menuData" :key="item.title">
         <router-link :to="item.path" class="nav-links"><i :class="item.icon"></i>{{ item.title }}</router-link>
       </li>
     </ul>
