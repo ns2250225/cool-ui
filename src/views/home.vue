@@ -192,6 +192,11 @@
       <co-topnav :menuData="topNavData"></co-topnav>
     </div>
 
+    <h1 style="margin-top: 40px;">Transfer穿梭框</h1>
+    <div class="transfer-group">
+      <co-transfer :data="transfer_data" v-model="transfer_value" :titles="['源数据','目标数据']"></co-transfer>
+    </div>
+
   </div>
 </template>
 
@@ -208,6 +213,29 @@ export default {
       val4: false,
       isDialogOpen: false,
       textv: '',
+      transfer_value: [],
+      transfer_data: [
+          {
+              key: 1,
+              name: '选项1',
+              disabled: false
+          },
+          {
+              key: 2,
+              name: '选项2',
+              disabled: true
+          },
+          {
+              key: 3,
+              name: '选项3',
+              disabled: false
+          },
+          {
+              key: 4,
+              name: '选项4',
+              disabled: false
+          }
+      ],
       RadioData: [{
         text: '选项1',
         value: '1'
@@ -544,6 +572,10 @@ h1 {
   }
 }
 .dialog-group {
+  margin-left: 200px;
+  margin-top: 120px;
+}
+.transfer-group {
   margin-left: 200px;
   margin-top: 120px;
 }

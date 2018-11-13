@@ -16,6 +16,7 @@ import Breadcrumb from './components/breadcrumb/index'
 import { Tabs, Tab } from './components/tabs/index'
 import Dialog from './components/dialog/index'
 import { SidebarMenu, TopNav } from './components/navmenu/index'
+import Transfer from './components/transfer/index'
 
 const components = {
   Button,
@@ -39,7 +40,8 @@ const components = {
   Tab,
   Dialog,
   SidebarMenu,
-  TopNav
+  TopNav,
+  Transfer
 }
 
 const install = function (Vue) {

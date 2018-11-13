@@ -21,50 +21,53 @@ $material-colors: (
 /**
  * Code for checkboxes
  */
-.checkbox {
-  position: relative;
+.co-checkbox {
+  .checkbox {
+    position: relative;
+    
+    width: 24px;
+    height: 24px;
+    margin-right: .75rem;
+    
+    cursor: pointer;
+    appearance: none;
+    outline: 0;
   
-  width: 24px;
-  height: 24px;
-  margin-right: .75rem;
-  
-  cursor: pointer;
-  appearance: none;
-  outline: 0;
- 
-  &:before {
-    content: '';
-    
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 1;
-    
-    width: 100%;
-    height: 100%;
-    
-    border: 2px solid $border-color;
-    
-    transition: all 0.3s ease-in-out;
-  }
+    &:before {
+      content: '';
+      
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 1;
+      
+      width: 100%;
+      height: 100%;
+      
+      border: 2px solid $border-color;
+      
+      transition: all 0.3s ease-in-out;
+    }
 
-  &:checked:before {
-    height: 50%;
+    &:checked:before {
+      height: 50%;
+      
+      transform: rotate(-45deg);
+      
+      border-top-style: none;
+      border-right-style: none;
+    }
     
-    transform: rotate(-45deg);
-    
-    border-top-style: none;
-    border-right-style: none;
-  }
-  
-  @each $name, $value in $material-colors {
-    &--#{$name}:checked:before {
-      border-color: $value;
+    @each $name, $value in $material-colors {
+      &--#{$name}:checked:before {
+        border-color: $value;
+      }
     }
   }
-}
 
-.checkbox-text {
-  font-size: 18px;
-  margin-right: 20px;
+  .checkbox-text {
+    font-size: 18px;
+    margin-right: 20px;
+  }
+
 }

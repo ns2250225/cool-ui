@@ -4,6 +4,9 @@
     border-radius: $radius;
 }
 
+@mixin height($h:30px) { height: $h; line-height: $h; }
+
+
 // 宽高
 @mixin size($width,$height){
     width: $width;
