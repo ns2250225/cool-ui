@@ -181,4 +181,3 @@ pageClass: icon-page-class
     </div>
   </div>
 </template>
-
