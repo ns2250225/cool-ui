@@ -45,6 +45,7 @@ module.exports = {
             '/component/tabs',
             '/component/dialog',
             '/component/sidebar',
+            '/component/topnav',
           ]
         },
         {

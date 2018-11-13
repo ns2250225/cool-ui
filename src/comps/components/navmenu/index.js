@@ -1,3 +1,4 @@
 import SidebarMenu from './SidebarMenu.vue'
+import TopNav from './topNav.vue'
 
-export default SidebarMenu
+export { SidebarMenu, TopNav }

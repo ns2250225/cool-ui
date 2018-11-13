@@ -187,6 +187,11 @@
       <co-sidebarmenu :menu="menuData"></co-sidebarmenu>
     </div>
 
+    <h1 style="margin-top: 40px;">topNav顶栏导航</h1>
+    <div class="topnav-group">
+      <co-topnav :menuData="topNavData"></co-topnav>
+    </div>
+
   </div>
 </template>
 
@@ -367,7 +372,29 @@ export default {
           ]
         },
       ],
-      collapsed: false
+      collapsed: false,
+      topNavData: [
+        {
+          path: 'home',
+          title: 'Home',
+          icon: 'icon-yibiaopan'
+        },
+        {
+          path: 'home',
+          title: 'Index',
+          icon: 'icon-xinhao'
+        },
+        {
+          path: 'home',
+          title: 'About',
+          icon: 'icon-zhanghaoquanxianguanli'
+        },
+        {
+          path: 'home',
+          title: 'Blog',
+          icon: 'icon-icon_fabu'
+        }
+      ]
     }
     },
   methods: {
