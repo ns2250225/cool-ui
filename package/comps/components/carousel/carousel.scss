@@ -99,12 +99,12 @@
 /*bar*/
 #pagination-wrap{
 	min-width:20px;
-	margin-top:350px;
-	margin-left: auto; 
-	margin-right: auto;
+	left: 50%;
+    top: 90%;
 	height:15px;
-	position:relative;
-	text-align:center;
+	transform: translate(-50%, -90%);
+	position: absolute;
+	text-align: center;
 }
 
 // #pagination-wrap ul {

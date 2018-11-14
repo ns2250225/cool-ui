@@ -49,6 +49,7 @@ module.exports = {
             '/component/transfer',
             '/component/upload',
             '/component/carousel',
+            '/component/datetimepicker',
           ]
         },
         {

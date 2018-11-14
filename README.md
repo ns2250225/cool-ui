@@ -24,7 +24,7 @@ import coolui from 'my-cool-ui/package/coolui.min.js'
 Vue.use(coolui)
 ```
 
-# ToDo
+# 组件列表
 - [x] Button（按钮）
 - [x] Button-Group（按钮组）
 - [x] Radio（单选框）
@@ -33,9 +33,7 @@ Vue.use(coolui)
 - [x] InputNumber （数字输入框）
 - [x] Select （下拉选择框）
 - [x] Switch （滑动开关）
-- [ ] TimePicker （时间选择）
-- [ ] DatePicker  （日期选择）
-- [ ] DateTimePicker （时间日期选择）
+- [x] DateTimePicker （时间日期选择）
 - [x] Upload （上传）
 - [x] Transfer （穿梭框）
 - [x] Table （表格）

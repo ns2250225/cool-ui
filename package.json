@@ -1,6 +1,6 @@
 {
   "name": "my-cool-ui",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "description": "my cool ui lib based vue2",
   "author": "ns2250225 <243027571@qq.com>",
   "main": "package/coolui.min.js",
@@ -15,6 +15,7 @@
     "docs:build": "vuepress build docs"
   },
   "dependencies": {
+    "moment": "^2.22.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

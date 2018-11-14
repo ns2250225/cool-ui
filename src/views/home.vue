@@ -204,7 +204,12 @@
 
     <h1 style="margin-top: 40px;">Carousel轮播图</h1>
     <div class="carousel-group">
-      <co-carousel :data="carouselData" loop></co-carousel>
+      <co-carousel :data="carouselData" loop :cwidth="600" :cheight="400"></co-carousel>
+    </div>
+
+    <h1 style="margin-top: 40px;">DateTimePicker时间日期选择</h1>
+    <div class="datetimepicker-group">
+      <co-date-picker :date="startTime" :option="option" :limit="limit"></co-date-picker>
     </div>
 
   </div>
@@ -464,9 +469,43 @@ export default {
           bgc: '#e74c3c',
           imgSrc: 'https://images.pexels.com/photos/1319839/pexels-photo-1319839.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
         }
-      ]
+      ],
+      startTime: {
+        time: ''
+      },
+      endtime: {
+        time: ''
+      },
+      option: {
+        type: 'min',
+        week: ['Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa', 'Su'],
+        month: ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+        format: 'YYYY-MM-DD HH:mm',
+        placeholder: '请选择日期时间...',
+        inputStyle: {
+          'display': 'inline-block',
+          'padding': '6px',
+          'line-height': '22px',
+          'font-size': '16px',
+          'border': '2px solid #0791e0',
+          'box-shadow': '0 1px 3px 0 rgba(0, 0, 0, 0.2)',
+          'border-radius': '2px',
+          'color': '#5F5F5F'
+        },
+        buttons: {
+          ok: '确定',
+          cancel: '取消'
+        },
+        overlayOpacity: 0.5,
+        dismissible: true
+      },
+      limit: [{
+        type: 'fromto',
+        from: '2018-11-13',
+        to: '2018-11-21'
+      }]
     }
-    },
+  },
   methods: {
     LogSomething (val) {
       console.log(val)
@@ -628,5 +667,9 @@ h1 {
 .carousel-group {
   margin-left: 200px;
   margin-top: 400px;
+}
+.datetimepicker-group {
+  margin-left: 200px;
+  margin-top: 150px;
 }
 </style>

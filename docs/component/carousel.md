@@ -7,7 +7,7 @@ pageClass: carousel-page-class
 
 <template>
   <div class="carousel-group">
-      <co-carousel :data="carouselData" loop></co-carousel>
+      <co-carousel :data="carouselData" loop :cwidth="600" :cheight="400"></co-carousel>
   </div>
 </template>
 
@@ -58,7 +58,7 @@ export default {
 ```html
 <template>
   <div class="carousel-group">
-      <co-carousel :data="carouselData" loop></co-carousel>
+      <co-carousel :data="carouselData" loop :cwidth="600" :cheight="400"></co-carousel>
   </div>
 </template>
 

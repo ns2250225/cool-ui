@@ -19,6 +19,7 @@ import { SidebarMenu, TopNav } from './components/navmenu/index'
 import Transfer from './components/transfer/index'
 import Upload from './components/upload/index'
 import Carousel from './components/carousel/index'
+import DateTimePicker from './components/datetimepicker/index'
 
 const components = {
   Button,
@@ -45,7 +46,8 @@ const components = {
   TopNav,
   Transfer,
   Upload,
-  Carousel
+  Carousel,
+  DateTimePicker
 }
 
 const install = function (Vue) {
