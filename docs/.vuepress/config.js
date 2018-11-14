@@ -48,6 +48,7 @@ module.exports = {
             '/component/topnav',
             '/component/transfer',
             '/component/upload',
+            '/component/carousel',
           ]
         },
         {

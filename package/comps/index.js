@@ -18,6 +18,7 @@ import Dialog from './components/dialog/index'
 import { SidebarMenu, TopNav } from './components/navmenu/index'
 import Transfer from './components/transfer/index'
 import Upload from './components/upload/index'
+import Carousel from './components/carousel/index'
 
 const components = {
   Button,
@@ -43,7 +44,8 @@ const components = {
   SidebarMenu,
   TopNav,
   Transfer,
-  Upload
+  Upload,
+  Carousel
 }
 
 const install = function (Vue) {

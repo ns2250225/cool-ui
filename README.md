@@ -48,4 +48,4 @@ Vue.use(coolui)
 - [x] Breadcrumb （面包屑）
 - [x] Dialog （对话框弹窗）
 - [x] ToolTips （提示）
-- [ ] Carousel  （走马灯/轮播图）
+- [x] Carousel  （走马灯/轮播图）

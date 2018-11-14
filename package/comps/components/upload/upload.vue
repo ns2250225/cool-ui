@@ -59,6 +59,8 @@ export default {
             }
         },
         removeUpload () {
+            let input = this.$refs.upload_input
+            input.value = ''
             this.isShow = false
             this.isHide = false
         },
