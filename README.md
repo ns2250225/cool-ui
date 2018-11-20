@@ -37,7 +37,6 @@ Vue.use(coolui)
 - [x] Upload （上传）
 - [x] Transfer （穿梭框）
 - [x] Table （表格）
-- [ ] Tree （树形节点）
 - [x] Pagination （分页）
 - [x] Badge （小红点）
 - [x] Message （消息提示）

@@ -138,7 +138,7 @@
   .passive-day {
     color: #bbb;
   }
-  .checked {
+  .datepicker-overlay .checked {
     background: #F50057;
     color: #FFF !important;
     border-radius: 50%;
@@ -189,7 +189,7 @@
   .unavailable:hover {
     background: none;
   }
-  .checked:hover {
+  .datepicker-overlay .checked:hover {
     background: #FF4F8E;
   }
   .cov-date-next::before,
