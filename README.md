@@ -3,9 +3,6 @@
 # Cool-UI
 🎨  一个炫酷的UI框架，基于Vue2
 
-# 在线DEMO
-- http://www.ns2250225.com/
-
 # 本地组件演示
 - npm install
 - npm run docs:dev
